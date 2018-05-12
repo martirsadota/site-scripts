@@ -1,0 +1,11 @@
+div#Taboola_TOP_LEADERBOARD_AB, div#RECIRCULATION_RAIL.group-FANDOM_TOPIC.module.recirculation-rail, footer#WikiaFooter, .global-footer .branding {
+    display: none !important;
+}
+
+/* Wikia header rubbish */
+.global-navigation .wikia-logo-container {
+    display:none !important;
+}
+
+/* div#WikiaArticleFooter.WikiaArticleFooter */
+

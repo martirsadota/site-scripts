@@ -1,0 +1,15 @@
+.WikiaPage { 
+    width: auto !important;
+}
+
+.ArticlePreviewInner {
+    width: 100% !important;
+}
+
+#ArticlePreview.ArticlePreviewInner {
+    width: 100% !important;
+}
+
+.ArticlePreview.ArticlePreviewInner {
+    width: 100% !important;
+}

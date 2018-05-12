@@ -1,0 +1,47 @@
+/* Originally by: Noreplyz Source: http://pastebin.com/raw/S3whtPEe */
+.arrow-left, .arrow-right {
+    display:none;
+}
+.chat-whos-here, .carousel-container {
+    height:auto !important;
+    overflow:auto;
+}
+.ChatModule .chat-whos-here .carousel-container {
+    left:0;
+}
+.carousel {
+    width:240px !important;
+}
+.ChatModule .chat-whos-here .carousel-container ul {
+    position:relative;
+}
+.ChatModule .chat-whos-here .carousel-container li {
+    display:block;
+    float:none;
+}
+.chatter {
+    margin-bottom:3px !important;
+}
+.chatter img {
+    display:none;
+}
+.chatter .info {
+    background:#FFF;
+    color:#222;
+    padding:1px 0;
+}
+.chatter .info ul li {
+    position:relative;
+}
+.chatter .actions {
+    display:none;
+}
+.UserStatsMenu {
+    display:block;
+}
+.chatter li.edits, .chatter li.username {    
+    display:inline-block !important;
+}
+.chatter li.since {
+    display:none !important;
+}

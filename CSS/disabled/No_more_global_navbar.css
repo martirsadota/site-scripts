@@ -1,0 +1,13 @@
+#globalNavigation{
+display:none !important;
+}
+
+#WikiaBar{
+display:none !important;
+}
+
+
+.WikiaSiteWrapper {
+padding-top: 0px;
+position:relative
+}

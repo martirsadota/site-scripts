@@ -1,0 +1,87 @@
+/**
+*
+* Fixes the new Wikia Header to be narrower and less intrusive.
+* Source: http://community.wikia.com/wiki/User:DEmersonJMFM/global.css
+* Last Modified: 27th September 2016 @ 18:10
+*
+* To use this, simply add the following code to the top of your
+* global.css:
+* @import "http://community.wikia.com/index.php?title=User:SuperSajuuk/header.css&action=raw&ctype=text/css&smaxage=86400&templates=expand";
+*
+* DO NOT COPY/PASTE THIS, YOU WON'T RECEIVE THE LATEST UPDATES
+* AND IT WON'T GIVE PROPER ATTRIBUTION TO MYSELF OR THE ORIGINAL
+* AUTHOR OF THESE FIXES!
+*
+**/
+
+/* Fix This */
+.wds-global-navigation {
+    border-top: none;
+    box-shadow: none;
+    transition-duration: .5s;
+    transition-property: background-color;
+}
+
+/* Bottom Border */
+.wds-global-navigation-wrapper { border-bottom: 1px solid !important; }
+
+/* Media Definitions */
+@media only screen and (min-width: 1084px) {
+   .wds-global-navigation__content-bar { width: 1064px !important; }
+   .wds-global-navigation-wrapper { height: 36px !important; }
+}
+@media only screen and (min-width: 1596px) {
+   .wds-global-navigation__content-bar { width: 1475px !important; }
+   .wds-global-navigation-wrapper { height: 37px !important; }
+}
+
+/* Content Bar Height */
+.wds-global-navigation__content-bar { height: 37px !important; }
+
+/* Fix Icon Height */
+.wds-global-navigation__logo-wikia-icon { height: 85% !important; margin-top: 4px !important; }
+
+/* No Pointless Hover Colours */
+.wds-icon { fill: #39424d; }
+
+/* Hide All This Junk */
+.wds-global-navigation__logo-wikia-caption,
+.wds-is-games,
+.wds-is-movies,
+.wds-is-tv,
+.wds-global-navigation__wikis-menu,
+.wds-global-navigation__start-a-wiki { display: none !important; }
+
+/* No flexing on logo */
+.wds-global-navigation__logo { 
+    -webkit-flex: 0 !important;
+    -ms-flex: 0 !important;
+    flex: 0 !important;
+}
+
+/* Height Fix */
+.wds-global-navigation__logo, .wds-global-navigation__link, .wds-global-navigation__wikis-menu, .wds-global-navigation__search, .wds-global-navigation__account-menu, .wds-global-navigation__user-menu, .wds-global-navigation__notifications-menu, .wds-global-navigation__start-a-wiki { height: 37px !important; }
+
+/* Fix Avatar Depiction */
+.wds-avatar { border: solid 1px currentColor !important; border-radius: 0 !important; }
+
+/* Notification counter fix */
+.wds-global-navigation__notifications-menu-counter { background-color: red; font-size: 11px; }
+
+/** Inversion Restoration
+*
+* Original: OneTwoThreeFall
+* Modified: DEmersonJMFM
+*
+**/
+.wds-global-navigation.headroom--not-top { background-color: rgba(0,0,0,0.65); transform: none; }
+.wds-global-navigation .wds-global-navigation__logo, .wds-global-navigation .wds-global-navigation__search, .wds-global-navigation .wds-global-navigation__account-menu, .wds-global-navigation .wds-global-navigation__user-menu, .wds-global-navigation .wds-global-navigation__notifications-menu { background-color: transparent; }
+.wds-global-navigation.headroom--not-top .wds-global-navigation__logo, .wds-global-navigation.headroom--not-top .wds-global-navigation__search, .wds-global-navigation.headroom--not-top .wds-global-navigation__account-menu, .wds-global-navigation.headroom--not-top .wds-global-navigation__user-menu, .wds-global-navigation.headroom--not-top .wds-global-navigation__notifications-menu { color: #fff; }
+.wds-global-navigation.headroom--not-top .wds-dropdown__toggle-chevron, .wds-global-navigation.headroom--not-top .wds-global-navigation__dropdown-toggle .wds-icon, .wds-global-navigation.headroom--not-top .wds-global-navigation__logo-wikia-icon { fill: #fff; } /* All Icons But Magnifit Glass */
+
+/* REMOVE "HOME OF FANDOM"
+/* Added by: dragonjet
+/* Source: http://kancolle.wikia.com/wiki/MediaWiki:Common.css?diff=558327&oldid=558238
+.wikia-logo__subtitle { display: none !important; }
+div.hubs-links { display: none !important; }
+.explore-wikia-entry-point { display: none !important; }

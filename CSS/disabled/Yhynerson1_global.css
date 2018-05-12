@@ -1,0 +1,267 @@
+/* ********** Imports external css stylesheets ********** */
+@import url("http://dev.wikia.com/index.php?title=FontAwesome/code.css&action=raw&ctype=text/css");
+@import url("http://dev.wikia.com/index.php?title=DropdownMenu/code.css&action=raw&ctype=text/css");
+@import url('//dev.wikia.com/load.php?debug=false&lang=en&mode=articles&articles=u:dev:NewDiffStyle/code.css&only=styles');
+@import url('//dev.wikia.com/load.php?debug=false&lang=en&mode=articles&articles=u:dev:MediaWiki:EditorSourceMinimal/code.css&only=styles');
+
+/* ********** Global navigation bar ********** */
+.global-navigation {
+    display: none;
+}
+.WikiaSiteWrapper {
+    padding-top: 0;
+}
+.WikiNav, .navbackground {
+    width: 100% !important;
+}
+
+/* ********** Wiki Bar ********** */
+.WikiaBarWrapper .wikia-bar {
+    width: 100%;
+}
+.wikia-bar > .arrow, .WikiaBarCollapseWrapper {
+    display: none;
+}
+div#WikiaBarWrapper {
+    background-image: none !important;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.toolbar .tools .fa {
+    margin-right: 0.5em;
+}
+
+/* ********** Editor window ********** */
+body.editor .WikiaPage {
+    padding: 0 !important;
+    width: 100%;
+}
+.EditPageHeader {
+    display: none !important;
+}
+#wpTextbox1, #wpTextbox0 {
+    border: none !important;
+}
+.show-template-classification-modal .WikiaPage {
+    opacity: 1 !important;
+}
+
+/* ********** Fonts for Hebrew and Arabic ********** */
+:lang(he) { font-family: "Arimo" !important; }
+:lang(ar) { font-family: "Droid Arabic Kufi" !important; }
+
+/* ********** Improving visibility of autocomplete list in editor ********** */
+body .ui-autocomplete {
+    padding: 0 !important;
+}
+body .ui-autocomplete .ui-menu-item a {
+    transition-duration: .1s;
+}
+
+/* ********** Removes All Ads ********** */
+.WikiaTopAds, .home-top-right-ads, .wikia-ad, .SelfServeUrl,
+#WikiaArticleBottomAd,
+.WikiaAdInContentPlaceHolder,
+.WikiaAdInContent { display:none !important; }
+
+/* ********** Edit menu ********** */
+.WikiHeader { z-index: initial !important; }
+.WikiHeader div.buttons span a:hover,
+.WikiHeader div.buttons span a:active { text-decoration: underline; }
+
+header#WikiaUserPagesHeader { padding-bottom:0; }
+
+.wikia-page-header h2 { line-height: 18px !important; }
+
+/* ********** Wikia rail ********** */
+body:not(.skin-monobook) .wikia-main-page-tag-lcs, body:not(.skin-monobook) .main-page-tag-lcs-exploded, .WikiaMainContent {
+    width: calc(100% - 310px);
+}
+.WikiaRail .module {
+    padding: 15px;
+}
+.WikiaRail .module h2 {
+    margin-bottom: 0.5em;
+}
+
+/* ********** Oasis theme ********** */
+.oasis-one-column .WikiaMainContent {
+    width: 100% !important;
+}
+.header-tally, .navbackground .chevron {
+    display:none !important;
+}
+#WikiaFooter, #RECIRCULATION_RAIL {
+    display: none;
+}
+.global-footer {
+    clear: both;
+}
+.global-footer nav {
+    padding-top: 1em;
+}
+#WikiaPageHeader {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.WikiaPage {
+	margin: 0 auto;
+	padding:0 10px;
+	max-width: none;
+	width: calc(100% - 20px);
+    min-width: 1008px;
+    border:none !important;
+}
+.WikiaHeader .page-width-container {
+	margin: 0 !important;
+	max-width: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .wikia-main-page-tag-lcs, .main-page-tag-lcs-exploded {
+        width: calc(100% - 308px);
+    }
+    .WikiaPage {
+	    padding:0 8px;
+	    width: calc(100% - 16px);
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1028px) {
+    .wikia-main-page-tag-lcs, .main-page-tag-lcs-exploded, .WikiaMainContent {
+        width: calc(100% - 308px);
+    }
+    .WikiaPage {
+	    padding:0 8px;
+	    width: calc(100% - 16px);
+    }
+}
+
+/* ********** Edit Summary ********** */
+.EditPage .module_page_controls #wpSummary {
+    padding: 1px 5px !important;
+}
+
+/* ********** Replace red link with grey link ********** */
+#mw-content-text a.new {
+	color: SlateGray;
+}
+
+/* ********** Disable VisualEditor ********** */
+#ca-ve-edit {
+    display: none !important;
+}
+
+/* ********** Mark YouTube video links ********** */
+.WikiaArticle a[href*="youtube.com/watch"]:after {
+    background-image: url("https://s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png");
+    background-size:12px 12px;
+    width:12px;
+    background-position:0;
+}
+
+/* ********** Tabber ********** */
+.tabbernav {
+    font-family: inherit !important;
+    font-weight: normal !important;
+    font-size: 13px;
+}
+.tabbernav a{
+    cursor: default;
+}
+
+/* ********** Admin dashboard ********** */
+.AdminDashboardGeneralHeader {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin: 24px 0 8px 16px;
+}
+.AdminDashboardGeneralHeader:first-child {
+    margin: 0 0 8px 16px;
+}
+.mw-specialpagesgroup {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.mw-specialpages-table {
+    margin: 0 16px !important;
+}
+.mw-specialpages-table:last-child {
+    margin: 0 16px 16px 16px !important;
+}
+.AdminDashboardGeneralHeader.AdminDashboardArticleHeader h1 {
+    margin: 0 !important;
+    font-size: 20px !important;
+}
+.AdminDashboardGeneralHeader.AdminDashboardArticleHeader {
+    margin: 12px 0 8px 0 !important;
+}
+
+/* ********** Font ********** */
+body {
+    padding: 0 0 25px 0 !important;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/* ********** Modal ********** */
+.modalWrapper {
+    border-radius: 4px;
+    border-width: 1px !important;
+    /*border-color: rgba(0,0,0,0.15) !important;*/
+}
+
+/* ********** User page ********** */
+.UserProfileMasthead .masthead-info h2 {
+    font-weight: 200;
+}
+.UserProfileMasthead .masthead-info h2 span {
+    color: rgba(255,255,255,0.75);
+}
+
+/* ********** Message box ********** */
+.banner-notifications-wrapper, .WikiaNotifications {
+    display:none !important;
+}
+
+/* ********** AntiBigText (by OneTwoThreeFall) ********** */
+@media (min-width: 1596px) {
+    .WikiaPage :not(.WikiaUserPagesHeader):not(.AdminDashboardHeader):not(.AdminDashboardGeneralHeader):not(.EditPageHeader):not(article):not(.media-text):not(#WikiaArticleComments) > h1,
+    .WikiaPage .WikiaRail .module h3,
+    .WikiaRail .module .WikiaPage h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .WikiaPage :not(.header-title):not(.module):not(.chat-contents):not(.pi-item):not(.EditPageHeader):not(.author-details) > h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .WikiaPage h3 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .WikiaPage h4 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .WikiaPage .WikiaArticle,
+    .WikiaPage .wikia-page-header h2 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .WikiaPage .WikiaArticle .infobox,
+    .WikiaPage blockquote {
+        font-size: inherit;
+        line-height: inherit;
+    }
+}
+
+/* ********** Others ********** */
+.page-首頁 .WikiaPageHeader{ display:none; }
+
+.article-thumb { margin-bottom:0 !important; }
+
+#EditPageDialog.preview .modalContent .ArticlePreviewInner { width: 100% !important; }
+
+.wikia-button#CuratedContentTool { display:none !important; }
+
