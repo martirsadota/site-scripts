@@ -1,0 +1,1 @@
+These CSS are what I use for Stylus. With Stylus, other than importing CSS as is you will need to also configure the "applies to" area or otherwise will cause undesired outcomes For that the information is located within Crazyteitoku\_CSS.md
