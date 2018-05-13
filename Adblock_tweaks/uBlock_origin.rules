@@ -1,0 +1,48 @@
+wikia.com###WikiaBarWrapper > .wikia-bar-anon.wikia-bar > .message
+wikia.com###globalNavigation > .global-navigation-container > .hubs-links.table-cell > .top-level.cell-link:nth-of-type(1)
+wikia.com###globalNavigation > .global-navigation-container > .hubs-links.table-cell > .top-level.cell-link:nth-of-type(2)
+wikia.com###globalNavigation > .global-navigation-container > .hubs-links.table-cell > .top-level.cell-link:nth-of-type(3)
+wikia.com###exploreWikiaEntryPoint > .final-url.top-level.cell-link
+wikia.com###globalNavigation > .global-navigation-container > .table-cell.wikia-logo-container
+
+! These appear on the "siderail" for wikia
+wikia.com###RECIRCULATION_RAIL > .group-CONTROL.module.recirculation-rail
+wikia.com###RECIRCULATION_RAIL > .group-FANDOM_TOPIC.module.recirculation-rail
+wikia.com###RECIRCULATION_RAIL > .group-SDCC.module.recirculation-rail
+wikia.com###RECIRCULATION_RAIL > .recirculation-unit.module.recirculation-rail
+wikia.com###search-v2-form > .alpha.WikiaRail.SearchAdsTopWrapper > .RailModule.fandom-stories.side-articles
+
+wikia.com###EditPageRail > .module_page_controls.module > .module_content:nth-of-type(2)
+
+! These appear on the bottom of wikia pages
+wikia.com##.WikiaSiteWrapper > .wds-is-en.wds-global-footer
+wikia.com##.wds-is-en.wds-global-footer
+||vignette2.wikia.nocookie.net/central/images/4/45/StrategyFooterImage.png/revision/latest/scale-to-width-down/250?cb=20150827182257$image
+||static.wikia.nocookie.net/474f46ca-4b3d-48dd-97e7-996f32e03437/scale-to-width-down/50$image
+wikia.com##.WikiaSiteWrapper > .wds-global-footer
+
+! Fandom crap. These appear on the top.
+wikia.com###globalNavigation > .wds-global-navigation__content-bar > .wds-global-navigation__logo-wikia.wds-global-navigation__logo
+wikia.com###globalNavigation > .wds-global-navigation__content-bar > .wds-global-navigation__links-and-search > .wds-is-games.wds-global-navigation__link
+wikia.com###globalNavigation > .wds-global-navigation__content-bar > .wds-global-navigation__links-and-search > .wds-is-movies.wds-global-navigation__link
+wikia.com###globalNavigation > .wds-global-navigation__content-bar > .wds-global-navigation__links-and-search > .wds-is-tv.wds-global-navigation__link
+wikia.com###globalNavigation > .wds-global-navigation__content-bar > .wds-global-navigation__links-and-search > .wds-dropdown.wds-global-navigation__wikis-menu > .wds-global-navigation__dropdown-toggle.wds-dropdown__toggle
+wikia.com###globalNavigation > .wds-global-navigation__content-bar > .wds-global-navigation__logo > .wds-global-navigation__logo-fandom
+wikia.com###globalNavigation > .wds-global-navigation__content-bar > .wds-global-navigation__logo
+
+! Bottom bar notifications crap.
+wikia.com###WikiaNotifications > li
+wikia.com###msg_4155
+wikia.com###msg_4171
+wikia.com###msg_4184
+
+kancolle.wikia.com###WikiaBarWrapper > .wikia-bar-anon.wikia-bar > .wikiabar-button:nth-of-type(2)
+kancolle.wikia.com###WikiaBarWrapper > .wikia-bar-anon.wikia-bar > .wikiabar-button:nth-of-type(3)
+kancolle.wikia.com###WikiaBarWrapper > .wikia-bar-anon.wikia-bar > .wikiabar-button:nth-of-type(4)
+
+! Wikia trying hard to detect ad-blockers
+wikia.com###jptundgg
+wikia.com##.ffzkddg
+wikia.com###mhgaazat
+wikia.com###opngzvr
+wikia.com##.iplvxqrb
